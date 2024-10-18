@@ -7,9 +7,9 @@ function getChromeVersion() {
             if (error) {
                 reject(error);
             } else {
-                const matches = stdout.match(/\d+\.\d+\.\d+\.\d+/);
-                const version = matches ? matches[0] : 'Version not found';
-                resolve(version);
+                // const matches = stdout.match(/\d+\.\d+\.\d+\.\d+/);
+                // const version = matches ? matches[0] : 'Version not found';
+                // resolve(version);
             }
         });
     });
